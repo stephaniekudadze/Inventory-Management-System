@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventorymanager.HelloController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="450.0" prefWidth="314.0" styleClass="left-form" stylesheets="@loginDesign.css">
+               <children>
+                  <Label layoutX="120.0" layoutY="38.0" text="MENU">
+                     <font>
+                        <Font name="Tahoma Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="94.0" layoutY="150.0" mnemonicParsing="false" onAction="#switchToViewVendors" styleClass="nav-btn" stylesheets="@loginDesign.css" text="View Vendors">
+                     <font>
+                        <Font name="Tahoma" size="18.0" />
+                     </font></Button>
+                  <Button layoutX="94.0" layoutY="200.0" mnemonicParsing="false" onAction="#switchToAddGoods" styleClass="nav-btn" stylesheets="@loginDesign.css" text="Add Goods">
+                     <font>
+                        <Font name="Tahoma" size="18.0" />
+                     </font></Button>
+                  <Button layoutX="94.0" layoutY="246.0" mnemonicParsing="false" onAction="#switchToIssueGoods" styleClass="nav-btn" stylesheets="@loginDesign.css" text="Issue Goods">
+                     <font>
+                        <Font name="Tahoma" size="18.0" />
+                     </font></Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="318.0" prefHeight="450.0" prefWidth="323.0" styleClass="right-form" stylesheets="@loginDesign.css" AnchorPane.rightAnchor="3.0">
+               <children>
+                  <Label layoutX="88.0" layoutY="191.0" text="Welcome back" textFill="#2c2a2ba3">
+                     <font>
+                        <Font name="Tahoma" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="44.0" text="INVENTORY MANAGEMENT SYSTEM">
+                     <font>
+                        <Font name="Tahoma" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

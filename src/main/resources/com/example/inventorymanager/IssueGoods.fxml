@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="447.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventorymanager.HelloController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="256.0" layoutY="35.0" text="Issue Goods">
+               <font>
+                  <Font name="Tahoma Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="520.0" layoutY="402.0" mnemonicParsing="false" onAction="#switchToHome" styleClass="btn-1" stylesheets="@loginDesign.css" text="Home" />
+            <Label layoutX="192.0" layoutY="132.0" text="Item">
+               <font>
+                  <Font name="Tahoma" size="15.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="323.0" layoutY="128.0" prefWidth="150.0" />
+            <Label layoutX="185.0" layoutY="180.0" text="Quantity">
+               <font>
+                  <Font name="Tahoma" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="324.0" layoutY="176.0" />
+            <Label layoutX="194.0" layoutY="224.0" text="Vendor">
+               <font>
+                  <Font name="Tahoma" size="15.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="324.0" layoutY="220.0" prefWidth="150.0" />
+            <Button layoutX="194.0" layoutY="313.0" mnemonicParsing="false" text="Issue Goods">
+               <font>
+                  <Font name="Tahoma" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="380.0" layoutY="313.0" mnemonicParsing="false" text="Cancel">
+               <font>
+                  <Font name="Tahoma" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

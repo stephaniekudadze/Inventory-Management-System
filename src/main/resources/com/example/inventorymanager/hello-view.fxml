@@ -17,18 +17,21 @@
                         <Font name="Tahoma Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Button layoutX="94.0" layoutY="150.0" mnemonicParsing="false" onAction="#switchToViewVendors" styleClass="nav-btn" stylesheets="@loginDesign.css" text="View Vendors">
+                  <Button layoutX="91.0" layoutY="114.0" mnemonicParsing="false" onAction="#switchToViewVendors" styleClass="nav-btn" stylesheets="@loginDesign.css" text="View Vendors">
                      <font>
                         <Font name="Tahoma" size="18.0" />
                      </font></Button>
-                  <Button layoutX="94.0" layoutY="200.0" mnemonicParsing="false" onAction="#switchToAddGoods" styleClass="nav-btn" stylesheets="@loginDesign.css" text="Add Goods">
+                  <Button layoutX="99.0" layoutY="160.0" mnemonicParsing="false" onAction="#switchToAddGoods" styleClass="nav-btn" stylesheets="@loginDesign.css" text="Add Goods">
                      <font>
                         <Font name="Tahoma" size="18.0" />
                      </font></Button>
-                  <Button layoutX="94.0" layoutY="246.0" mnemonicParsing="false" onAction="#switchToIssueGoods" styleClass="nav-btn" stylesheets="@loginDesign.css" text="Issue Goods">
+                  <Button layoutX="95.0" layoutY="204.0" mnemonicParsing="false" onAction="#switchToIssueGoods" styleClass="nav-btn" stylesheets="@loginDesign.css" text="Issue Goods">
                      <font>
                         <Font name="Tahoma" size="18.0" />
                      </font></Button>
+                  <Button layoutX="97.0" layoutY="248.0" mnemonicParsing="false" onAction="#switchToViewGoods" styleClass="nav-btn" stylesheets="@loginDesign.css" text="View Goods" />
+                  <Button layoutX="73.0" layoutY="291.0" mnemonicParsing="false" onAction="#switchToViewIssuedGoods" styleClass="nav-btn" stylesheets="@loginDesign.css" text="View Issued Goods" />
+                  <Button layoutX="106.0" layoutY="339.0" mnemonicParsing="false" onAction="#switchToViewBills" styleClass="nav-btn" stylesheets="@loginDesign.css" text="View Bills" />
                </children>
             </AnchorPane>
             <AnchorPane layoutX="318.0" prefHeight="450.0" prefWidth="323.0" styleClass="right-form" stylesheets="@loginDesign.css" AnchorPane.rightAnchor="3.0">

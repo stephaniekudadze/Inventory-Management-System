@@ -8,8 +8,8 @@ import java.sql.SQLException;
 public class DatabaseConnectionManager {
 
     private static final String DB_URL = "jdbc:mysql://localhost.3306/inventory_management_system";
-    private static final String DB_USER = "your_db_username";
-    private static final String DB_PASSWORD = "your_db_password";
+    private static final String DB_USER = "root";
+    private static final String DB_PASSWORD = "password";
 
     public static Connection getConnection() throws SQLException
     {

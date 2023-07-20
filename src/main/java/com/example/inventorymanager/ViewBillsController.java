@@ -17,7 +17,7 @@ public class ViewBillsController {
 
     public void initializeBill()
     {
-        // Fetch data from database
+
     }
 
 

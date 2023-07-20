@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 
 public class DatabaseConnectionManager {
+    public static void main(String[] args ){ }
 
     private static final String DB_URL = "jdbc:mysql://localhost.3306/inventory_management_system";
     private static final String DB_USER = "root";

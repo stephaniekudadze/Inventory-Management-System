@@ -26,7 +26,7 @@ public class ViewVendorsController {
 
     public void initializeVendors()
     {
-        // Bind data from database to the TableView
+
     }
 
 
